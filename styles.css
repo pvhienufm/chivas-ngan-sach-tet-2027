@@ -43,3 +43,21 @@ h1, h2, h3, p { margin-top: 0; } h1, h2, h3 { font-family: 'Lato', Arial, sans-s
 @media (max-width: 850px) { .proposal-table, .action-table { font-size: 11px; }.proposal-table th, .proposal-table td, .action-table th, .action-table td { padding: 12px 8px; }.proposal-table thead th, .action-table thead th { font-size: 8px; }.proposal-table tbody th, .action-table tbody th { width: auto; }.action-table tbody td:nth-child(3), .action-table tbody td:nth-child(4) { white-space: normal; }.summary-callout { align-items: flex-start; flex-direction: column; gap: 4px; } }
 @media (max-width: 520px) { .proposal-table, .action-table { min-width: 680px; }.proposal-table-wrap, .action-table { overflow-x: auto; }.proposal-table-wrap { border-bottom: 1px solid var(--line); }.proposal-table th, .proposal-table td, .action-table th, .action-table td { padding: 10px 7px; }.single-evidence { grid-template-columns: 1fr; }.single-evidence img { width: 100%; max-height: 160px; }.evidence-gallery { overflow-x: auto; grid-template-columns: repeat(5, 150px); padding-bottom: 5px; }.evidence-gallery img { height: 105px; }.lightbox { padding: 12px; }.lightbox img { max-width: 96vw; max-height: 78vh; } }
 @media print { .topbar, .controls { display: none; }.deck { width: 100%; }.slide, .slide.is-active { min-height: auto; display: flex; page-break-after: always; padding: 28px; }.slide:last-child { page-break-after: auto; } }
+
+/* Readability pass: keep the deck client-readable at presentation distance. */
+.topbar-meta, .date-pill { font-size: 11px; }
+.kicker { font-size: 11px; }
+.section-intro { font-size: 15px; line-height: 1.55; }
+.source-note, .table-note { font-size: 12px; }
+.timing-card small, .evidence-row span, .budget-summary small, .roadmap-item span, .roadmap-bottom small { font-size: 10px; }
+.timing-card span { font-size: 14px; }
+.evidence-row span { font-size: 12px; }
+.proposal-table, .action-table, .budget-table, .roas-table { font-size: 14px; }
+.proposal-table thead th, .action-table thead th, .budget-table thead th, .roas-table thead th { font-size: 11px; }
+.proposal-table td small { font-size: 11px; }
+.budget-table tbody td, .action-table tbody td { font-size: 13px; }
+.plain-note, .summary-callout { font-size: 13px; }
+.roas-note > p:not(.kicker) { font-size: 14px; }
+.roas-compare small { font-size: 11px; }
+.evidence-gallery figcaption, .single-evidence figcaption { font-size: 11px; }
+.roadmap-item p, .roadmap-bottom span { font-size: 13px; line-height: 1.5; }
