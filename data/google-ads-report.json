@@ -67,5 +67,43 @@
       "phoneClicks": 1
     }
   ],
-  "source": "Google Ads screenshots supplied by user; values transcribed for reporting."
+  "historicalChivas": [
+    { "month": "10/2025", "season": "Baseline", "spendVnd": 4107896, "revenueVnd": 4294000, "roas": 1.05 },
+    { "month": "11/2025", "season": "Pre-peak", "spendVnd": 4454465, "revenueVnd": 9460000, "roas": 2.12 },
+    { "month": "12/2025", "season": "Tết warm-up", "spendVnd": 5399502, "revenueVnd": 28837000, "roas": 5.34 },
+    { "month": "01/2026", "season": "Peak prep", "spendVnd": 6068615, "revenueVnd": 39257401, "roas": 6.47 },
+    { "month": "02/2026", "season": "Tết", "spendVnd": 3036442, "revenueVnd": 86307599, "roas": 28.42 }
+  ],
+  "keywordTrend": {
+    "keyword": "chivas",
+    "avgMonthlySearches": 8100,
+    "yearOverYearChange": 22,
+    "august2026Searches": 29610,
+    "augustMonthOverMonthChange": 127,
+    "monthlySearches": [
+      { "month": "09/25", "value": 11000 }, { "month": "10/25", "value": 9000 },
+      { "month": "11/25", "value": 9000 }, { "month": "12/25", "value": 12000 },
+      { "month": "01/26", "value": 38000 }, { "month": "02/26", "value": 30000 },
+      { "month": "03/26", "value": 18000 }, { "month": "04/26", "value": 12000 },
+      { "month": "05/26", "value": 10000 }, { "month": "06/26", "value": 7000 },
+      { "month": "07/26", "value": 13000 }, { "month": "08/26", "value": 29610 }
+    ],
+    "source": "Google Keyword Planner screenshot; Vietnam, Vietnamese, Google, 09/2025–08/2026."
+  },
+  "calendar": {
+    "tet2026": { "name": "Bính Ngọ", "date": "17/02/2026", "weekday": "Thứ Ba" },
+    "tet2027": { "name": "Đinh Mùi", "date": "06/02/2027", "weekday": "Thứ Bảy" }
+  },
+  "proposal": {
+    "title": "Đề xuất Google Ads tháng 10/2026 — chuẩn bị Tết 2027",
+    "principle": "Tháng 10 dùng để xây nền và học; scale theo tín hiệu từ tháng 11, tăng tốc vào tháng 12–01.",
+    "budgetNote": "Chưa chốt ngân sách tuyệt đối trong brief; đề xuất dùng tỷ trọng theo pha trước, sau đó quy đổi thành tiền.",
+    "phases": [
+      { "period": "10/10–31/10", "name": "Build & learn", "focus": "Tracking, feed, cấu trúc Search + PMAX, creative test" },
+      { "period": "11/2026", "name": "Capture demand", "focus": "Mở rộng keyword có ý định mua, giữ nhóm thắng" },
+      { "period": "12/2026", "name": "Tết warm-up", "focus": "Đẩy quà tặng, hộp quà, giao hàng và remarketing" },
+      { "period": "01/2027–06/02", "name": "Peak conversion", "focus": "Ưu tiên purchase, bảo vệ ngân sách giờ vàng và deadline giao hàng" }
+    ]
+  },
+  "source": "Google Ads screenshots supplied by user; values transcribed for proposal planning. Historical revenue and ROAS are directional and should be reconciled with GA4/order data before becoming hard targets."
 }

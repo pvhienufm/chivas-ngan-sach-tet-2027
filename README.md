@@ -1,6 +1,8 @@
-# Google Ads report · ruousi.vn
+# Google Ads proposal · Chivas · ruousi.vn
 
-Slideshow báo cáo hiệu quả Google Ads cho giai đoạn **09/09/2026 — 08/10/2026**.
+Slideshow đề xuất Google Ads cho Chivas: **tháng 10/2026 → Tết 2027**.
+
+Deck dùng dữ liệu campaign Chivas Search + PMAX năm 2025–2026 và Keyword Planner làm benchmark để xây kế hoạch. Số liệu lịch sử là hướng tham chiếu; cần đối soát GA4/order data trước khi chốt KPI doanh thu.
 
 ## Chạy local
 
@@ -20,7 +22,7 @@ Sau đó mở http://localhost:8000.
 
 ## Nguồn dữ liệu
 
-Các số liệu đã được transcribe từ ảnh chụp Google Ads và context người dùng cung cấp, lưu tại [`data/google-ads-report.json`](data/google-ads-report.json).
+Các số liệu đã được transcribe từ ảnh chụp Google Ads và context người dùng cung cấp, lưu tại [`data/google-ads-report.json`](data/google-ads-report.json). Tết 2027 — Đinh Mùi: **06/02/2027**; Tết 2026 — Bính Ngọ: **17/02/2026**.
 
 ## GitHub Pages
 
