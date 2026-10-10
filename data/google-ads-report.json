@@ -68,11 +68,11 @@
     }
   ],
   "historicalChivas": [
-    { "month": "10/2025", "season": "Baseline", "spendVnd": 4107896, "revenueVnd": 4294000, "roas": 1.05 },
-    { "month": "11/2025", "season": "Pre-peak", "spendVnd": 4454465, "revenueVnd": 9460000, "roas": 2.12 },
-    { "month": "12/2025", "season": "Tết warm-up", "spendVnd": 5399502, "revenueVnd": 28837000, "roas": 5.34 },
-    { "month": "01/2026", "season": "Peak prep", "spendVnd": 6068615, "revenueVnd": 39257401, "roas": 6.47 },
-    { "month": "02/2026", "season": "Tết", "spendVnd": 3036442, "revenueVnd": 86307599, "roas": 28.42 }
+    { "month": "10/2025", "season": "Baseline", "spendVnd": 4107896, "revenueVnd": 4294000, "roas": 1.05, "revenueRoas": 1.05, "purchaseRoas": 1.05 },
+    { "month": "11/2025", "season": "Pre-peak", "spendVnd": 4454465, "revenueVnd": 9460000, "roas": 2.12, "revenueRoas": 2.12, "purchaseRoas": 2.12 },
+    { "month": "12/2025", "season": "Tết warm-up", "spendVnd": 5399502, "revenueVnd": 28837000, "roas": 5.34, "revenueRoas": 5.34, "purchaseRoas": 1.64 },
+    { "month": "01/2026", "season": "Peak prep", "spendVnd": 6068615, "revenueVnd": 39257401, "roas": 6.47, "revenueRoas": 6.47, "purchaseRoas": 1.53 },
+    { "month": "02/2026", "season": "Tết", "spendVnd": 3036442, "revenueVnd": 86307599, "roas": 28.42, "revenueRoas": 28.42, "purchaseRoas": 5.37 }
   ],
   "keywordTrend": {
     "keyword": "chivas",
@@ -97,7 +97,28 @@
   "proposal": {
     "title": "Đề xuất Google Ads tháng 10/2026 — chuẩn bị Tết 2027",
     "principle": "Tháng 10 dùng để xây nền và học; scale theo tín hiệu từ tháng 11, tăng tốc vào tháng 12–01.",
-    "budgetNote": "Chưa chốt ngân sách tuyệt đối trong brief; đề xuất dùng tỷ trọng theo pha trước, sau đó quy đổi thành tiền.",
+    "budgetNote": "Ngân sách mở rộng đã được brief: 4 campaign mới 330.000đ/ngày, tương đương 9.900.000đ/tháng; tổng kế hoạch sau mở rộng 540.000đ/ngày, tương đương 16.200.000đ/tháng.",
+    "focusCategories": ["Rượu Linh Vật", "Vang Ý", "Vang Pháp", "Vang Chile", "Hộp Quà Tết", "Giỏ Quà Tết"],
+    "campaignPlan": {
+      "existing": {
+        "count": 3,
+        "dailyBudgetVnd": 210000,
+        "monthlyBudgetVnd": 6300000,
+        "note": "Thêm Ad Group vào 3 campaign Rượu Vang hiện tại; dùng chung ngân sách cấp campaign, không phát sinh chi phí riêng."
+      },
+      "new": [
+        { "name": "Rượu Linh Vật", "count": 1, "dailyBudgetVnd": 65000, "monthlyBudgetVnd": 1950000 },
+        { "name": "Rượu Chivas", "count": 2, "dailyBudgetVnd": 200000, "monthlyBudgetVnd": 6000000, "note": "200.000đ/ngày là tổng phân bổ cho 2 campaign Chivas, theo tổng ngân sách brief 330.000đ/ngày." },
+        { "name": "Retargeting khách mua Tết năm ngoái", "count": 1, "dailyBudgetVnd": 65000, "monthlyBudgetVnd": 1950000 }
+      ],
+      "newTotalDailyBudgetVnd": 330000,
+      "newTotalMonthlyBudgetVnd": 9900000,
+      "grandTotalDailyBudgetVnd": 540000,
+      "grandTotalMonthlyBudgetVnd": 16200000
+    },
+    "seasonalityRationale": "Năm ngoái Tết rơi vào giữa tháng 02/2026 và nhu cầu Chivas bắt đầu tăng từ tháng 11/2025. Tết 2027 sớm hơn khoảng nửa tháng, nên khởi động từ tháng 10/2026 là hợp lý.",
+    "mandatorySlide": "Đối chiếu ROAS doanh thu và ROAS Purchase theo tháng; từ tháng 12 hai cách tính bắt đầu lệch rõ, cần đối soát số liệu trước khi tăng ngân sách.",
+    "designDirection": "Tối giản, ít màu, ưu tiên bảng số liệu rõ ràng và insight ngắn; tránh phong cách quá màu mè khi trình bày với khách.",
     "phases": [
       { "period": "10/10–31/10", "name": "Build & learn", "focus": "Tracking, feed, cấu trúc Search + PMAX, creative test" },
       { "period": "11/2026", "name": "Capture demand", "focus": "Mở rộng keyword có ý định mua, giữ nhóm thắng" },
