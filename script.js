@@ -4,6 +4,10 @@
   const next = document.querySelector('[data-next]');
   const currentLabel = document.querySelector('.progress-label');
   const progress = document.querySelector('.progress-track i');
+  const lightbox = document.querySelector('#lightbox');
+  const lightboxImage = lightbox?.querySelector('img');
+  const lightboxClose = lightbox?.querySelector('.lightbox-close');
+  const sourceImages = [...document.querySelectorAll('.single-evidence img, .evidence-gallery img, .roas-source-thumb')];
   let active = 0;
 
   const show = (index, updateHash = true) => {
@@ -20,7 +24,24 @@
   previous.addEventListener('click', () => show(active - 1));
   next.addEventListener('click', () => show(active + 1));
   document.querySelectorAll('[data-go]').forEach((button) => button.addEventListener('click', () => show(Number(button.dataset.go) - 1)));
+  const closeLightbox = () => { if (lightbox) lightbox.hidden = true; document.body.style.overflow = ''; };
+  sourceImages.forEach((image) => {
+    image.tabIndex = 0;
+    image.setAttribute('role', 'button');
+    image.addEventListener('click', () => {
+      if (!lightbox || !lightboxImage) return;
+      lightboxImage.src = image.currentSrc || image.src;
+      lightboxImage.alt = image.alt;
+      lightbox.hidden = false;
+      document.body.style.overflow = 'hidden';
+    });
+    image.addEventListener('keydown', (event) => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); image.click(); } });
+  });
+  lightboxClose?.addEventListener('click', closeLightbox);
+  lightbox?.addEventListener('click', (event) => { if (event.target === lightbox) closeLightbox(); });
   document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && lightbox && !lightbox.hidden) { closeLightbox(); return; }
+    if (lightbox && !lightbox.hidden) return;
     if (['ArrowRight', 'PageDown', ' '].includes(event.key)) { event.preventDefault(); show(active + 1); }
     if (['ArrowLeft', 'PageUp'].includes(event.key)) { event.preventDefault(); show(active - 1); }
     if (event.key === 'Home') { event.preventDefault(); show(0); }
