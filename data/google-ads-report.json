@@ -1,0 +1,71 @@
+{
+  "brand": "ruousi.vn",
+  "period": {
+    "start": "09/09/2026",
+    "end": "08/10/2026",
+    "label": "09/09 — 08/10/2026",
+    "days": 30
+  },
+  "overview": {
+    "clicks": 1800,
+    "impressions": 51000,
+    "averageCpcVnd": 2310,
+    "totalSpendVnd": 4152924,
+    "reportedRevenueVnd": 7680000,
+    "roas": 1.85
+  },
+  "budget": {
+    "dailyTotalVnd": 210000,
+    "monthlyTotalVnd": 6300000,
+    "campaigns": [
+      { "name": "Vang Ý", "shortName": "Ý", "type": "Search Ads", "dailyVnd": 65000 },
+      { "name": "Vang Chile", "shortName": "Chile", "type": "Search Ads", "dailyVnd": 80000 },
+      { "name": "Vang Pháp", "shortName": "Pháp", "type": "Search Ads", "dailyVnd": 65000 }
+    ]
+  },
+  "campaigns": [
+    {
+      "name": "Vang Ý",
+      "color": "#f06b4f",
+      "impressions": 4751,
+      "clicks": 352,
+      "ctr": 7.41,
+      "averageCpcVnd": 3563,
+      "spendVnd": 1254099,
+      "revenueVnd": 1610000,
+      "conversionRate": 1.42,
+      "purchases": 3,
+      "addToCart": 1,
+      "phoneClicks": 1
+    },
+    {
+      "name": "Vang Chile",
+      "color": "#4f86f7",
+      "impressions": 13381,
+      "clicks": 493,
+      "ctr": 3.68,
+      "averageCpcVnd": 3255,
+      "spendVnd": 1604677,
+      "revenueVnd": 4280000,
+      "conversionRate": 3.68,
+      "purchases": 6,
+      "addToCart": 5,
+      "phoneClicks": 6
+    },
+    {
+      "name": "Vang Pháp",
+      "color": "#f2b84b",
+      "impressions": 32903,
+      "clicks": 954,
+      "ctr": 2.90,
+      "averageCpcVnd": 1357,
+      "spendVnd": 1294148,
+      "revenueVnd": 1790006,
+      "conversionRate": 2.90,
+      "purchases": 1,
+      "addToCart": 5,
+      "phoneClicks": 1
+    }
+  ],
+  "source": "Google Ads screenshots supplied by user; values transcribed for reporting."
+}
